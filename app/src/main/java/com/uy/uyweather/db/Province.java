@@ -4,31 +4,31 @@ import org.litepal.crud.LitePalSupport;
 
 public class Province extends LitePalSupport {
 
-    private int mId;
-    private String mProvinceName;
-    private int mProvinceCode;
+    private int id;
+    private String provinceName;
+    private int provinceCode;
 
-    public int getmId() {
-        return mId;
+    public int getId() {
+        return id;
     }
 
-    public void setmId(int Id) {
-        this.mId = Id;
+    public void setId(int Id) {
+        this.id = Id;
     }
 
-    public String getmProvinceName() {
-        return mProvinceName;
+    public String getProvinceName() {
+        return provinceName;
     }
 
-    public void setmProvinceName(String ProvinceName) {
-        this.mProvinceName = ProvinceName;
+    public void setProvinceName(String ProvinceName) {
+        this.provinceName = ProvinceName;
     }
 
-    public int getmProvinceCode() {
-        return mProvinceCode;
+    public int getProvinceCode() {
+        return provinceCode;
     }
 
-    public void setmProvinceCode(int ProvinceCode) {
-        this.mProvinceCode = ProvinceCode;
+    public void setProvinceCode(int ProvinceCode) {
+        this.provinceCode = ProvinceCode;
     }
 }

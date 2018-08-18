@@ -34,7 +34,7 @@
     <list>
         <mapping class="com.uy.uyweather.db.Province" />
         <mapping class="com.uy.uyweather.db.City" />
-        <mapping class="com.uy.uyweather.db.Country" />
+        <mapping class="com.uy.uyweather.db.County" />
     </list>
 
     <!--

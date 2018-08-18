@@ -12,8 +12,8 @@ public class UYApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        LitePal.initialize(this);
         init();
+        LitePal.initialize(this);
     }
 
     public static Context getContext(){
